@@ -1,0 +1,67 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environment ───────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Environment Variables ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Model Files (large binaries — store separately) ──────────
+models/*.keras
+models/*.h5
+models/*.pb
+models/*.tflite
+# Keep the README placeholder
+!models/README.txt
+
+# ── Flask / Werkzeug ──────────────────────────────────────────
+instance/
+.webassets-cache
+flask_session/
+
+# ── TensorFlow / Keras cache ──────────────────────────────────
+*.tfevents.*
+saved_model/
+logs/
+runs/
+
+# ── Jupyter Notebooks ─────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS & Editor ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ── Build / Dist ──────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── Test & Coverage ───────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Uploads / Temp ────────────────────────────────────────────
+uploads/
+tmp/
+*.tmp
